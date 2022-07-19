@@ -1,10 +1,3 @@
-var chownr = require('chownr')
-var tar = require('tar-stream')
-var pump = require('pump')
-var mkdirp = require('mkdirp')
-var fs = require('fs')
-var path = require('path')
-var os = require('os')
 
 var win32 = os.platform() === 'win32'
 
